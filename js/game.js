@@ -116,7 +116,7 @@ class Game {
 
                     //Update the score in the database
 
-                    player.update();
+                    player.update();  //Comment from pro: it was score.update() instead of that put player.update()
                     //player.score.update()
                     //player.update();
                     //update();
